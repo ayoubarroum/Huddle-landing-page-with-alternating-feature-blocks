@@ -1,0 +1,345 @@
+
+body{
+  font-size: 12px;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+p{
+  width: 75%;
+  margin: auto;
+margin-bottom: 30px;
+}
+.logo{
+  position: relative;
+  right:20%;
+  top:5px;
+}
+.headings{
+  width:80%;
+  margin: auto;
+  line-height: 1.5;
+  color: hsl(192, 100%, 9%);
+}
+p{
+width:67%;
+  color: hsla(208, 11%, 55%, 1);
+}
+.intro{
+
+  background-image: url("bg-hero-mobile.svg");
+
+background-color: hsl(193, 100%, 96%);
+padding-bottom: 10px;
+
+}
+
+.secondbtn{
+  margin: auto ;
+
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  background-color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  text-decoration: none;
+  border-radius: 14px;
+padding: 5px 25px 5px;
+  text-align: center;
+  box-shadow: 1px 4px 12px lightgrey;
+}
+
+
+
+.introimg{
+  margin-top: 30px;
+}
+.intro1{
+  padding-top: 20px;
+
+
+}
+.intro2{
+  margin-top: 40px;
+
+}
+
+.CTA{
+  font-family: 'Open Sans', sans-serif;
+
+}
+h1{
+  font-family:'Poppins', sans-serif;
+  font-weight: 600;
+}
+.logo {
+  width: 25%;
+}
+.introbtn{
+  width:25%;
+  margin-right: 10px;
+  padding: 1px 0 1px;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  border-radius: 8px;
+  float: right;
+  box-shadow: 1px 4px 12px lightgrey;
+}
+
+
+.introimg{
+  width:80%;
+  padding-top: 30px;
+
+}
+.bodyimg{
+  width:80%;
+}
+.attribution { font-size: 11px; text-align: center; margin-bottom: 0; padding-bottom: 10px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+.gt,.fc,.yu{
+  border-radius: 12px;
+  border: 1px solid white;
+
+  background-color: white;
+  box-shadow: 1px 4px 12px lightgrey;
+  width:90%;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 40px;
+}
+footer,.footer{
+  background-color: hsl(192, 100%, 9%);
+
+
+}
+.footer{
+  padding-top: 100px;
+  color: white;
+  padding-bottom: 20px;
+
+}
+.thirdbtn{
+  border-radius: 12px;
+  border: 1px solid lightgrey;
+
+  background-color: white;
+
+  width:90%;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  position: relative;
+  font-size: 8px;
+  top: 40px;
+}
+.fourthbtn{
+  padding-top: 20px;
+  margin: auto ;
+
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  background-color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  text-decoration: none;
+  border-radius: 14px;
+padding: 5px 25px 5px;
+  text-align: center;
+  box-shadow: 1px 4px 12px lightgrey;
+}
+.coordonnees{
+  width: 90%;
+  margin: auto;
+}
+.locationicon,.phoneicon,.emailicon{
+  float: left;
+}
+.location{
+  text-align: left;
+  color: white;
+}
+a{text-decoration: none;
+color: white;}
+.phonediv{margin-bottom: 20px;
+}
+.emaildiv{
+  margin-bottom: 20px;
+}
+.phonenbr{
+  padding-right: 145px;
+}
+
+.emailadd{
+
+padding-right: 120px;
+}
+.else1,.else2{
+  color: white;
+  text-align: left;
+ line-height: 2;
+ padding-left: 20px;
+}
+.else1{
+  padding-top: 20px;
+}
+.socialicons{
+  width:35px;
+  height:35px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.copy{
+  padding-top: 20px;
+  font-size: 10px;
+  color: white;
+}
+/* DONE WITH MOBILE, LET'S MAKE CHANGES FOR 1440PX*/
+@media screen and (min-width: 750px) {
+  .logo{
+  width: 10%;
+  margin-left:10%;
+  position: relative;
+  right:30%;
+  }
+  .introbtn{
+    margin-left:15%;
+    margin-right:5%;
+    width:10%;
+    border-radius: 14px;
+    padding: 6px 0 6px;
+  }
+  .introimg{
+    width:40%;
+    position: relative;
+    left:24%;
+  }
+.thirdbtn{
+  width: 40%;
+}
+.bodyimg{
+  width: 30%;
+}
+#gtimg{
+  position: relative;
+  left:30%;
+}
+#fcimg{
+  position: relative;
+  right:30%;
+}
+#yuimg{
+  position: relative;
+  left:30%;
+}
+.gt,.fc,.yu{
+  width: 80%;
+}
+
+p.para,h1#head{
+  position: absolute;
+}
+p.para{
+  font-size: 18px;
+  width: 38%;
+  text-align: left;
+color: black;
+margin-left: 60px;
+margin-top: 200px;
+}
+h1#head{
+  font-size: 30px;
+  margin-bottom: 20px;
+
+  width:25%;
+  text-align: left;
+  margin-left: 60px;
+  margin-top: 100px;
+}
+.secondbtn{
+  position: absolute;
+  margin-top: 300px;
+  left: 59px;
+}
+#gtimg,#fcimg,#yuimg{
+  padding-bottom: 70px;
+}
+#gtpara,#gthead,#fcpara,#fchead,#yupara,#yuhead {
+  left:250px;
+  width: 39%;
+  text-align: left;
+  font-size: 18px;
+  position: absolute;
+}
+p#gtpara{
+top: 730px;
+}
+h1#gthead{
+top: 700px;
+}
+p#fcpara{
+top: 1130px;
+left: 630px;
+}
+h1#fchead{
+top: 1100px;
+left: 630px;
+}
+p#yupara{
+top: 1500px;
+}
+h1#yuhead{
+top: 1470px;
+}
+.location {
+    position: relative;
+    right: 250px;
+    width: 20%;
+}
+.phonenbr {
+    position: relative;
+    right: 350px;
+}
+.emailadd {
+    position: relative;
+    right: 350px;
+}
+.else1{
+    line-height: 2.5;
+    padding-left: 20px;
+    position: absolute;
+    right: 700px;
+    top: 1960px;
+    left: 650px;
+    width:20%;
+}
+.else2{
+  line-height: 2.5;
+  padding-left: 20px;
+  position: absolute;
+  right: 700px;
+  top: 1980px;
+  left: 800px;
+  width:20%;
+}
+.socialmedia{
+  position: absolute;
+  right: 700px;
+  top: 1940px;
+  left: 900px;
+  width:20%;
+}
+.locationicon, .phoneicon, .emailicon {
+    float: left;
+    padding-left: 180px;
+}
+p.copy{
+  padding-left: 630px;
+}
+}
